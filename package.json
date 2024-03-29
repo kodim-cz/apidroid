@@ -1,0 +1,27 @@
+{
+  "name": "apidroid",
+  "version": "0.0.0",
+  "description": "",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "tsc -w & nodemon dist/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kodim-cz/apidroid.git"
+  },
+  "author": "Martin Podloucký",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kodim-cz/apidroid/issues"
+  },
+  "homepage": "https://github.com/kodim-cz/apidroid#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@tsconfig/node18": "^18.2.4",
+    "@types/express": "^4.17.21",
+    "nodemon": "^3.1.0"
+  }
+}
